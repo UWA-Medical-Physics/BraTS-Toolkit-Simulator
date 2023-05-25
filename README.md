@@ -10,4 +10,5 @@ The segmentation is based on the following four imaging modalities:
 3) Contrast MRI
 4) T2-MRI
 
-
+What it is and what it can be used for?
+Its an interface to the BraTS-Toolkit to automate image analysis and tumour segmentation workflow.

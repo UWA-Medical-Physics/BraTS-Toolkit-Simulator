@@ -1,1 +1,15 @@
+The program requires specific inputs to execute its functionality effectively. These inputs include:
+1)	Path to the external Python: This parameter defines the location where the BraTs Toolkit is installed. 
+This is the Path to the external Python installed on the user computer that contains the installation of the BraTS-Toolkit.
+Or this path is required to install the BraTS-Toolkit.
+
+2)	Path to data directory: Users must provide the path to the directory containing the patients' data.
+Within this directory, individual patient data folders are present, with each folder comprising the following essential images: 
+(a) T1-weighted magnetic resonance imaging (MRI), (b) T2-weighted MRI, (c) FLAIR, and (d) contrast-enhanced MRI. 
+
+3)	Patient ID: To track patients data.
+
+4)	Select neural network models: This input allows users to choose from a list of trained neural network models. 
+Users have the flexibility to select multiple models and even incorporate new available models into the list. 
+
 

@@ -1,3 +1,4 @@
+How to run?
 The program requires specific inputs to execute its functionality effectively. These inputs include:
 
 1)	Path to the external Python: This parameter defines the location where the BraTs Toolkit is installed. 
@@ -12,5 +13,13 @@ Within this directory, individual patient data folders are present, with each fo
 
 4)	Select neural network models: This input allows users to choose from a list of trained neural network models. 
 Users have the flexibility to select multiple models and even incorporate new available models into the list. 
+
+What are the outputs?
+Outputs are the segmentation files for each patient data. The segmentation is performed based on the selected number of neural networks. In the fusion part of the 
+program all the segmentations from the individual neural networks are combined based on majority voting and iterative SIMPLE fusion to generate consensus segmentations.
+These segmentations are converted to original MRI data space to get the transformed segmentations so that the tumour segmentation results can be viewed on the original 
+MRI data. 
+
+
 
 

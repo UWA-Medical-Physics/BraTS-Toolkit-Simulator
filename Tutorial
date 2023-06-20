@@ -1,4 +1,5 @@
 The program requires specific inputs to execute its functionality effectively. These inputs include:
+
 1)	Path to the external Python: This parameter defines the location where the BraTs Toolkit is installed. 
 This is the Path to the external Python installed on the user computer that contains the installation of the BraTS-Toolkit.
 Or this path is required to install the BraTS-Toolkit.
